@@ -31,8 +31,17 @@ Download the dataset from Kaggle and extract it into the data/ folder.
 Train the model using src/training.py.
 Use src/prediction.py to make predictions on new X-ray images.
 
-## Dependencies
+## Installation
 
-The project requires the following Python libraries, which can be installed using the requirements.txt file.
+To run the project locally, first clone the repository and install the required dependencies using the following command:
 
+```bash
 pip install -r requirements.txt
+
+Ensure you have the correct dataset structure in the data/ folder.
+
+## Training the Model
+To train the model, run the training.py script:
+
+python src/training.py
+
